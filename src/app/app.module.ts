@@ -7,6 +7,7 @@ import { CoursesComponent } from './courses.component';
 import { SillyComponent } from './silly.component';
 import { TestComponent } from './test.component';
 import { PancakesComponent } from './pancakes/pancakes.component';
+import { NewGeneratedComponentComponent } from './new-generated-component/new-generated-component.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { PancakesComponent } from './pancakes/pancakes.component';
     CoursesComponent,
     TestComponent,
     SillyComponent,
-    PancakesComponent    
+    PancakesComponent,
+    NewGeneratedComponentComponent    
   ],
   imports: [
     BrowserModule,
