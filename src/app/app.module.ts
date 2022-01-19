@@ -8,6 +8,7 @@ import { SillyComponent } from './silly.component';
 import { TestComponent } from './test.component';
 import { PancakesComponent } from './pancakes/pancakes.component';
 import { NewGeneratedComponentComponent } from './new-generated-component/new-generated-component.component';
+import { CoursesService } from './courses.service';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,9 @@ import { NewGeneratedComponentComponent } from './new-generated-component/new-ge
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [
+    CoursesService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
