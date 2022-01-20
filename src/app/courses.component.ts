@@ -16,6 +16,7 @@ import { CoursesService } from './courses.service';
                 {{ course }}
             </li>
         </ul>
+        <button class="btn btn-danger">don't press this button!</button>
     `
 })
 export class CoursesComponent {
