@@ -9,6 +9,7 @@ import { TestComponent } from './test.component';
 import { PancakesComponent } from './pancakes/pancakes.component';
 import { NewGeneratedComponentComponent } from './new-generated-component/new-generated-component.component';
 import { CoursesService } from './courses.service';
+import { EmailService } from './email.service';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { CoursesService } from './courses.service';
     AppRoutingModule
   ],
   providers: [
-    CoursesService
+    CoursesService,
+    EmailService
   ],
   bootstrap: [AppComponent]
 })
