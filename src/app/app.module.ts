@@ -10,6 +10,7 @@ import { PancakesComponent } from './pancakes/pancakes.component';
 import { NewGeneratedComponentComponent } from './new-generated-component/new-generated-component.component';
 import { CoursesService } from './courses.service';
 import { EmailService } from './email.service';
+import { DannyBoyComponent } from './danny-boy/danny-boy.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { EmailService } from './email.service';
     TestComponent,
     SillyComponent,
     PancakesComponent,
-    NewGeneratedComponentComponent    
+    NewGeneratedComponentComponent,
+    DannyBoyComponent    
   ],
   imports: [
     BrowserModule,
