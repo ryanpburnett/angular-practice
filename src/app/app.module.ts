@@ -11,6 +11,7 @@ import { NewGeneratedComponentComponent } from './new-generated-component/new-ge
 import { CoursesService } from './courses.service';
 import { EmailService } from './email.service';
 import { DannyBoyComponent } from './danny-boy/danny-boy.component';
+import { HowManyComponent } from './how-many/how-many.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { DannyBoyComponent } from './danny-boy/danny-boy.component';
     SillyComponent,
     PancakesComponent,
     NewGeneratedComponentComponent,
-    DannyBoyComponent    
+    DannyBoyComponent,
+    HowManyComponent    
   ],
   imports: [
     BrowserModule,
